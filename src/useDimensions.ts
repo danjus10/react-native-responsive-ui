@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Dimensions, ScaledSize } from "react-native";
 
-const dims = Dimensions.get("window");
+const dims = Dimensions.get("screen");
 
 export default () => {
   const [dimensions, setDimensions] = useState(dims);
