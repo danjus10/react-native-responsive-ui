@@ -13,7 +13,8 @@ export default abstract class ResponsiveComponent extends Component<
 > {
   state = {
     // eslint-disable-next-line react/no-unused-state
-    window: Dimensions.get("window")
+    window: Dimensions.get("window"),
+    screen: Dimensions.get("screen")
   };
 
   componentWillMount() {
